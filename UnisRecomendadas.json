@@ -1,0 +1,54 @@
+[
+    {
+        "nombre": "Instituto Tecnológico de Aguascalientes",
+        "acronimo": "ITA",
+        "foto": "img/uniLogos/ITA.png",
+        "direccion": "Avenida Adolfo López Mateos #1801 Ote. Fraccionamiento Bona Gens, C.P. 20255 Aguascalientes, Ags., México.",
+        "telefono": "449 910 5002",
+        "url": "vistas/Vista_ITA.html",
+        "vista": "vistas/Vista_ITA.html",
+        "soc": "si",
+        "bio": "no",
+        "fm": "si",
+        "hum": "no"
+    },
+    {
+        "nombre": "Universidad Politécnica de Aguascalientes",
+        "acronimo": "UPA",
+        "foto": "img/uniLogos/UPA.jpg",
+        "direccion": "Calle Paseo San Gerardo #207, Fraccionamiento San Gerardo, C.P. 20342. Aguascalientes, Ags., México.",
+        "telefono": "449 442 1400",
+        "url": "https://upa.edu.mx/",
+        "vista": "",
+        "soc": "si",
+        "bio": "no",
+        "fm": "si",
+        "hum": "no"
+    },
+    {
+        "nombre": "Universidad La Concordia",
+        "acronimo": "ULC",
+        "foto": "img/uniLogos/ULC.jpg",
+        "direccion": "Avenida Tecnológico #107, Ojocaliente, 20180 Aguascalientes, Ags., México",
+        "telefono": "800 112 5428",
+        "url": "https://www.universidadlaconcordia.edu.mx/",
+        "vista": "",
+        "soc": "si",
+        "bio": "si",
+        "fm": "si",
+        "hum": "si"
+    },
+    {
+        "nombre": "Universidad Tecnológica de Aguascalientes",
+        "acronimo": "UTA",
+        "foto": "img/uniLogos/UTA.jpg",
+        "direccion": "Bulevard Juan Pablo II #1302 Ex Hacienda la Cantera, 20200 Aguascalientes, Ags., México",
+        "telefono": "449 910 5000",
+        "url": "http://www.utags.edu.mx/",
+        "vista": "",
+        "soc": "si",
+        "bio": "si",
+        "fm": "si",
+        "hum": "no"
+    }
+]

@@ -1,0 +1,195 @@
+/* Estilo del título principal */
+.titulo {
+    color: #000000; /* Color negro */
+    font-size: 3em; /* Tamaño de fuente más grande */
+    text-align: center; /* Alineación centrada */
+    margin-bottom: 20px; /* Espaciado inferior */
+    font-weight: bold; /* Negrita */
+}
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Estilo de productos */
+.producto {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    min-height: 150px; /* Ajusta según sea necesario */
+    border: 2px solid rgb(27, 152, 206); /* Borde más visible y colorido */
+    margin: 10px; /* Espacio entre los recuadros */
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0);
+}
+
+.card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column; /* Alinea el contenido en columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto */
+}
+
+.card-link {
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto de la tarjeta */
+}
+
+.card-link .card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card-link:hover .card {
+    transform: scale(1.05); /* Efecto de zoom en hover */
+}
+
+.nombre {
+    font-size: 30px; /* Tamaño del texto del nombre */
+    font-weight: bold; /* Negrita */
+    color: rgb(27, 152, 206); /* Color del nombre */
+    margin-bottom: 15px; /* Espacio debajo del nombre */
+    text-transform: uppercase;
+}
+
+.descripcion {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Permite múltiples líneas */
+    line-height: 1.5em; /* Ajusta la altura de línea según tu diseño */
+    height: auto; /* Ajusta la altura según el contenido */
+    color: #000000; /* Color negro */
+    text-align: justify; /* Justifica el texto */
+    margin-top: 10px; /* Espaciado superior */
+    font-size: 1em; /* Tamaño de fuente más pequeño */
+}
+
+/* Estilo de encabezados y textos */
+h2 {
+    color: #555555;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px; /* Tamaño de fuente más grande */
+}
+
+p {
+    font-size: 16px;
+    color: #000000;
+    margin: 20px 20px 20px 20px;
+  }
+
+/* Estilo de botones */
+.btn-success {
+    background-color: #4ebbc5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo de fila de productos (mostrar 2 por fila) */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.col-md-6 {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+}
+
+/* Estilo de filtro y ordenar */
+#buscar,
+#ordenar {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilo de fondo del resultado */
+#res {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/*Accesibilidad*/
+.accessibility img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .accessibility{
+    position: fixed;
+    display: flex;
+    top: 20%;
+    right: 130px;
+    cursor: pointer;
+    z-index: 200;
+    transition: transform 0.5s ease;
+  }
+  
+  .accessibility.moved{
+    transform: translateX(calc(100% + 80px));
+  }
+  
+  .BoxAccesibility{
+    width: 160px;
+    background-color: #238ac7;
+    border-bottom-left-radius: 50px;
+    position: fixed;
+    right: 0px;
+    top: 20.5%;
+    z-index: 100;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    transition: opacity 0.5s ease;
+    transition: transform 0.5s ease;
+  }
+  
+  .BoxAccesibility.hidden{
+    transform: translateX(100%);
+  }
+  .BoxAccesibility p{
+    color: white;
+    font-size: 10pt;
+  }
+  
+  .centrado{
+    text-align: center;
+    width: 100%;
+  }
+

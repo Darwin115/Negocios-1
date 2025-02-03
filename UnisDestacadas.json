@@ -1,0 +1,46 @@
+[
+    {
+        "nombre": "Instituto Tecnológico de Aguascalientes",
+        "acronimo": "ITA",
+        "foto": "img/uniLogos/ITA.png",
+        "url": "vistas/Vista_ITA.html",
+        "vista": "../vistas/Vista_ITA.html",
+        "soc": "si",
+        "bio": "no",
+        "fm": "si",
+        "hum": "no"
+    },
+    {
+        "nombre": "Universidad Autónoma de Aguascalientes",
+        "acronimo": "UAA",
+        "foto": "img/uniLogos/UAA.jpg",
+        "url": "https://www.uaa.mx/",
+        "vista": "",
+        "soc": "si",
+        "bio": "si",
+        "fm": "si",
+        "hum": "si"
+    },
+    {
+        "nombre": "Universidad Cuauhtémoc | Campus Aguascalientes",
+        "acronimo": "UC",
+        "foto": "img/uniLogos/UC.jpg",
+        "url": "https://ucuauhtemoc.edu.mx/",
+        "vista": "",
+        "soc": "si",
+        "bio": "si",
+        "fm": "si",
+        "hum": "si"
+    },
+    {
+        "nombre": "Instituto Tecnológico de Monterrey",
+        "acronimo": "ITESM",
+        "foto": "img/uniLogos/ITESM.jpg",
+        "url": "https://tec.mx/es",
+        "vista": "",
+        "soc": "no",
+        "bio": "no",
+        "fm": "si",
+        "hum": "si"
+    }
+]

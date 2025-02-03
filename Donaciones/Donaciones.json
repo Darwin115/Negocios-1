@@ -1,0 +1,105 @@
+[
+    {
+      "nombre": "Mouse Óptico Inalámbrico",
+      "marca": "Logitech",
+      "estado": "Nuevo",
+      "tamaño": "6.5 x 4 x 2.5 cm",
+      "peso": "85 g",
+      "material": "Plástico ABS",
+      "color": "Negro",
+      "foto": "imgDonaciones/Mouse.jpeg",
+      "url": "BuscarFormulario.php",
+      "descripcion": "El Mouse Óptico Inalámbrico de Logitech ofrece precisión y comodidad sin cables. Su diseño ergonómico se adapta perfectamente a la mano."
+    },
+
+    {
+      "nombre": "Audífonos In-Ear Bluetooth",
+      "marca": "Sony",
+      "estado": "Usado",
+      "tamaño": "2.5 x 2 x 1.5 cm (cada auricular)",
+      "peso": "50 g (total)",
+      "material": "Plástico y Silicona",
+      "color": "Azul oscuro",
+      "foto": "imgDonaciones/Audifonos.jpeg",
+      "url": "BuscarFormulario.php",
+      "descripcion": "Los Audífonos In-Ear Bluetooth de Sony ofrecen una experiencia auditiva excepcional con la comodidad y libertad de la tecnología inalámbrica. Estos audífonos siguen proporcionando un sonido claro y potente. "
+    },
+
+    {
+      "nombre": "Calculadora Científica FX-991EX",
+      "marca": "Casio",
+      "estado": "Usado",
+      "tamaño": "15 x 8 x 1.5 cm",
+      "peso": "150 g",
+      "material": "Plástico",
+      "color": "Negro",
+      "foto": "imgDonaciones/Calculadora.jpg",
+      "url": "BuscarFormulario.php",
+      "descripcion": "La Calculadora Científica FX-991EX de Casio está diseñada para cálculos complejos con facilidad. Equipado con una pantalla de alta resolución y una amplia gama de funciones matemáticas."
+    },
+
+    {
+      "nombre": "Manual de Medicina Interna",
+      "marca": "Elsevier",
+      "estado": "Usado",
+      "tamaño": "24 x 17 x 4 cm",
+      "peso": "1.2 kg",
+      "material": "Papel y Tapa dura",
+      "color": "Azul (tapa)",
+      "foto": "imgDonaciones/Manual.jpg",
+      "url": "BuscarFormulario.php",
+      "descripcion": "El 'Manual de Medicina Interna' de Elsevier es una referencia esencial para profesionales de la salud. Con una tapa dura resistente y páginas de alta calidad."
+    },
+
+    {
+      "nombre": "Bata Blanca de Laboratorio",
+      "marca": "Medline",
+      "estado": "Usado",
+      "tamaño": "Mediana (M)",
+      "peso": "300 g",
+      "material": "Algodón y Poliéster",
+      "color": "Blanco",
+      "foto": "imgDonaciones/Bata.jpg",
+      "url": "BuscarFormulario.php",
+      "descripcion": "La Bata Blanca de Laboratorio de Medline está confeccionada en una mezcla de algodón y poliéster, combinando comodidad y durabilidad."
+    },
+
+    {
+      "nombre": "Cinta Métrica Retráctil 5m",
+      "marca": "Stanley",
+      "estado": "Nuevo",
+      "tamaño": "5 m de longitud",
+      "peso": "200 g",
+      "material": "Acero inoxidable y Plástico",
+      "color": "Amarillo y negro",
+      "foto": "imgDonaciones/Cinta.jpg",
+      "url": "BuscarFormulario.php",
+      "descripcion": "La Cinta Métrica Retráctil de Stanley ofrece una longitud de 5 metros con una carcasa resistente de plástico y una cinta de acero inoxidable. "
+    },
+
+    {
+      "nombre": "Estetoscopio Clínico Classic III",
+      "marca": "Littmann",
+      "estado": "Usado",
+      "tamaño": "Tubos de 69 cm",
+      "peso": "150 g",
+      "material": "Acero inoxidable y PVC",
+      "color": "Negro",
+      "foto": "imgDonaciones/Estetoscopio.png",
+      "url": "BuscarFormulario.php",
+      "descripcion": "El Estetoscopio Clínico Classic III de Littmann proporciona una acústica superior para la auscultación precisa."
+    },
+
+    {
+      "nombre": "Reloj Analógico Deportivo",
+      "marca": "Garmin",
+      "estado": "Nuevo",
+      "tamaño": "42 mm de diámetro",
+      "peso": "70 g",
+      "material": "Acero inoxidable y Caucho",
+      "color": "Gris con pantalla negra",
+      "foto": "imgDonaciones/Reloj.jpeg",
+      "url": "BuscarFormulario.php",
+      "descripcion": "El Reloj Analógico Deportivo de Garmin combina un diseño elegante con funcionalidad avanzada."
+    }
+  ]

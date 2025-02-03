@@ -1,0 +1,290 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Estilo de productos */
+.producto {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    min-height: 200px; /* Ajusta según sea necesario */
+    display: flex;
+    flex-direction: column;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    justify-content: center; /* Centra el contenido verticalmente */
+}
+
+.card-content {
+    display: flex;
+    flex-grow: 1; /* Permite que el contenido ocupe el espacio disponible */
+    align-items: center; /* Centra el contenido verticalmente dentro de la tarjeta */
+    justify-content: center; /* Centra el contenido horizontalmente dentro de la tarjeta */
+}
+/* Estilo del nombre */
+.nombre {
+    font-size: 22px; /* Tamaño del texto del nombre */
+    color: black; /* Color del nombre */
+    margin-bottom: 25px; /* Espaciado inferior */
+    text-align: center; /* Alinea el texto al centro */
+}
+
+/* Estilo de la descripción */
+.descripcion {
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    color: #000000; /* Color negro */
+    text-align: justify; /* Justifica el texto */
+    margin-top: 10px; /* Espaciado superior */
+}
+
+/* Estilo de botones */
+.btn-success {
+    background-color: #4ebbc5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    color: white;
+    background-color: #2980b9;
+}
+
+/* Estilo de fila de productos (mostrar 4 por fila) */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.col-md-4 {
+    flex: 0 0 calc(25% - 20px);
+    margin: 10px;
+}
+
+/* Estilo de encabezados y textos */
+h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: #333333;
+}
+
+/* Estilo de filtro y ordenar */
+#buscar,
+#ordenar {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Estilo de fondo del resultado */
+#res {
+    background-color: rgb(27, 152, 206);
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo de texto de enlace */
+a {
+    text-align: center;
+    align-items: center;
+    color: #4ebbc5;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    background-color: #2980b9;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Estilo para los filtros */
+.filters-container {
+    display: flex; /* Usar flexbox */
+    align-items: center; /* Centrar verticalmente los elementos */
+    background-color: #f0f0f0; /* Color de fondo */
+    padding: 5px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    margin: 20px auto; /* Margen exterior */
+    max-width: 1100px; /* Ancho máximo */
+    height: 60px; /* Altura fija del contenedor */
+}
+
+.filters-container select,
+.filters-container input[type="text"],
+.filters-container button {
+    margin: 0 5px; /* Espaciado horizontal entre elementos */
+    padding: 8px; /* Espaciado interno */
+    border: 2px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    height: 40px; /* Altura uniforme para los elementos */
+    box-sizing: border-box; /* Incluir el tamaño del borde y el relleno en el ancho y alto */
+}
+
+.filters-container select {
+    min-width: 50px; /* Ancho mínimo del select */
+}
+
+.filters-container input[type="text"] {
+    flex: 1; /* Expande para llenar el espacio restante */
+    min-width: 200px; /* Ancho mínimo del input */
+}
+
+.filters-container button {
+    min-width: 120px; /* Ancho mínimo del botón */
+    background-color: #4ebbc5; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Eliminar borde del botón */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.filters-container button:hover {
+    background-color: #3a9ca8; /* Color de fondo al pasar el ratón sobre el botón */
+}
+
+#buscar{
+    margin: 0px;
+}
+
+/*Accesibilidad*/
+.accessibility img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .accessibility{
+    position: fixed;
+    display: flex;
+    top: 20%;
+    right: 130px;
+    cursor: pointer;
+    z-index: 200;
+    transition: transform 0.5s ease;
+  }
+  
+  .accessibility.moved{
+    transform: translateX(calc(100% + 80px));
+  }
+  
+  .BoxAccesibility{
+    width: 160px;
+    background-color: #238ac7;
+    border-bottom-left-radius: 50px;
+    position: fixed;
+    right: 0px;
+    top: 20.5%;
+    z-index: 100;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    transition: opacity 0.5s ease;
+    transition: transform 0.5s ease;
+  }
+  
+  .BoxAccesibility.hidden{
+    transform: translateX(100%);
+  }
+  .BoxAccesibility p{
+    color: white;
+    font-size: 10pt;
+  }
+  
+  .centrado{
+    text-align: center;
+    width: 100%;
+  }
+
+/*Modal*/
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el desenfoque */
+    filter: blur(5px);
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Comienza invisible */
+    pointer-events: none; /* Evita que se pueda interactuar con él */
+    z-index: 999; /* Asegúrate de que esté detrás del modal */
+}
+
+.background-blur.active {
+    opacity: 1; /* Hace visible el desenfoque */
+    pointer-events: auto; /* Permite interacciones si es necesario */
+}
+
+
+body.modal-open {
+    filter: blur(5px); /* Ajusta el valor para más o menos desenfoque */
+    transition: filter 0.3s ease; /* Transición suave para el desenfoque */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* Margen superior */
+    padding: 20px;
+    border: 1px solid #888;
+    width: auto; /* Ajuste automático al contenido */
+    max-width: 95%; /* Ancho máximo */
+    border-radius: 12px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más suave */
+    overflow-y: auto; /* Habilitar scroll vertical si es necesario */
+    max-height: 2000vh; /* Limitar la altura del modal */
+}
+
+.modal-body {
+    padding: 20px; /* Espaciado interno */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.modal-footer {
+    display: flex; /* Flexbox para centrar contenido */
+    justify-content: center; /* Centrar el botón en el pie del modal */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%; /* Más ancho en pantallas pequeñas */
+    }
+}

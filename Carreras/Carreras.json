@@ -1,0 +1,866 @@
+[
+    {
+      "nombre": "Ingeniería en Sistemas Computacionales",
+      "descripcion": "Forma profesionales en el desarrollo, implementación y administración de sistemas computacionales. Incluye diseño de software, redes y sistemas de información.",
+      "imagen": "../img/carreras/ISC.png",
+      "categoria": "ingenieria",
+      "duracion": "larga",
+      "costo": "medio",
+      "orden": "ranking",
+      "mision": "Formar profesionales capaces de desarrollar soluciones tecnológicas innovadoras que optimicen procesos en diversos sectores mediante el uso de sistemas computacionales.",
+      "vision": "Ser un referente en la formación de expertos en tecnología, contribuyendo al desarrollo de la industria tecnológica a nivel global.",
+      "objetivos": [
+        "Impulsar el aprendizaje de lenguajes de programación modernos y arquitecturas de software.",
+        "Fomentar el desarrollo de habilidades en seguridad informática y redes.",
+        "Promover la innovación en sistemas de información."
+      ]
+    },
+    {
+      "nombre": "Ingeniería Electrónica",
+      "descripcion": "Enfocada en la creación y mantenimiento de dispositivos electrónicos, incluyendo circuitos, sistemas embebidos y comunicaciones electrónicas.",
+      "imagen": "../img/carreras/ingElectronica.jpeg",
+      "categoria": "ingenieria",
+      "duracion": "larga",
+      "costo": "alto",
+      "orden": "ranking",
+      "mision": "Preparar profesionales especializados en el diseño y mantenimiento de dispositivos electrónicos avanzados, mejorando la eficiencia tecnológica.",
+      "vision": "Ser líder en la formación de ingenieros electrónicos que transformen las industrias con tecnologías sostenibles e innovadoras.",
+      "objetivos": [
+        "Proporcionar conocimientos en sistemas embebidos y comunicaciones electrónicas.",
+        "Desarrollar habilidades para diseñar y optimizar circuitos electrónicos.",
+        "Enfocar el aprendizaje en soluciones electrónicas sostenibles."
+      ]
+    },
+    {
+      "nombre": "Ingeniería Industrial",
+      "descripcion": "Optimiza procesos y recursos en empresas. Incluye logística, administración de operaciones y mejora de procesos.",
+      "imagen": "../img/carreras/Ingeniería Industrial.jpg",
+      "categoria": "ingenieria",
+      "duracion": "media",
+      "costo": "medio",
+      "orden": "ubicacion",
+      "mision": "Formar ingenieros industriales que optimicen recursos y procesos, contribuyendo a la mejora continua de organizaciones.",
+      "vision": "Ser reconocidos por desarrollar líderes en ingeniería industrial con impacto en la economía global.",
+      "objetivos": [
+        "Enseñar técnicas de mejora de procesos y logística.",
+        "Preparar a los estudiantes para implementar sistemas de calidad.",
+        "Desarrollar habilidades en administración de operaciones."
+      ]
+    },
+    {
+      "nombre": "Ingeniería Mecánica",
+      "descripcion": "Prepara para el diseño y fabricación de maquinaria y equipos mecánicos, incluyendo termodinámica, mecánica de fluidos y diseño mecánico.",
+      "imagen": "../img/carreras/Ingeniería Mecánica.jpg",
+      "categoria": "ingenieria",
+      "duracion": "larga",
+      "costo": "alto",
+      "orden": "duracion",
+      "mision": "Formar ingenieros mecánicos capaces de diseñar, fabricar y mantener equipos que impulsen el desarrollo industrial.",
+      "vision": "Ser líderes en innovación tecnológica aplicada a la ingeniería mecánica, promoviendo soluciones sostenibles y eficientes.",
+      "objetivos": [
+        "Capacitar en el diseño y análisis de sistemas mecánicos complejos.",
+        "Fomentar el uso de herramientas avanzadas de simulación y modelado.",
+        "Promover la investigación en mecánica aplicada y termodinámica."
+      ]
+    },
+      {
+        "nombre": "Licenciatura en Mercadotecnia",
+        "descripcion": "Estudia mercados y estrategias de promoción de productos y servicios, incluyendo investigación de mercado, publicidad y ventas.",
+        "imagen": "../img/carreras/Licenciatura en Mercadotecnia.jpeg",
+        "categoria": "negocios",
+        "duracion": "media",
+        "costo": "bajo",
+        "orden": "costo",
+        "mision": "Formar profesionales capaces de diseñar y ejecutar estrategias de mercadotecnia innovadoras para impulsar negocios y marcas.",
+        "vision": "Ser reconocidos como líderes en la formación de especialistas en mercadotecnia a nivel nacional e internacional.",
+        "objetivos": [
+          "Desarrollar habilidades en investigación de mercados.",
+          "Fomentar el uso de herramientas digitales en campañas de marketing.",
+          "Promover estrategias de marketing ético y responsable."
+        ]
+      },
+      {
+        "nombre": "Licenciatura en Relaciones Internacionales",
+        "descripcion": "Estudia relaciones entre países y organizaciones internacionales, incluyendo política exterior, comercio internacional y derechos humanos.",
+        "imagen": "../img/carreras/Licenciatura en Relaciones Internacionales.jpg",
+        "categoria": "soc",
+        "duracion": "media",
+        "costo": "medio",
+        "orden": "ranking",
+        "mision": "Preparar profesionales con un enfoque global para analizar, gestionar y resolver conflictos internacionales.",
+        "vision": "Ser líderes en la formación de diplomáticos y expertos en relaciones internacionales reconocidos por su impacto positivo en el mundo.",
+        "objetivos": [
+          "Estudiar los principales tratados y acuerdos internacionales.",
+          "Desarrollar habilidades en negociación y mediación.",
+          "Fomentar la investigación en temas globales y de derechos humanos."
+        ]
+      },
+      {
+        "nombre": "Ingeniería en Energías Renovables",
+        "descripcion": "Especializada en el desarrollo y gestión de tecnologías para la generación de energía a partir de fuentes renovables, como solar y eólica.",
+        "imagen": "../img/carreras/Ingeniería en Energías Renovables.jpg",
+        "categoria": "ingenieria",
+        "duracion": "larga",
+        "costo": "alto",
+        "orden": "ranking",
+        "mision": "Formar ingenieros especializados en energías limpias y sostenibles para enfrentar los retos energéticos del futuro.",
+        "vision": "Ser reconocidos como una carrera líder en la promoción de soluciones energéticas sostenibles a nivel global.",
+        "objetivos": [
+          "Capacitar en el diseño e implementación de sistemas renovables.",
+          "Promover la investigación en tecnologías limpias.",
+          "Fomentar el uso responsable de los recursos naturales."
+        ]
+      },
+      {
+        "nombre": "Ingeniería en Logística y Transporte",
+        "descripcion": "Enfocada en la gestión y optimización de procesos logísticos y de transporte, incluyendo cadenas de suministro y distribución.",
+        "imagen": "../img/carreras/Ingeniería en Logística y Transporte.jpg",
+        "categoria": "ingenieria",
+        "duracion": "media",
+        "costo": "bajo",
+        "orden": "duracion",
+        "mision": "Preparar profesionales capaces de optimizar cadenas de suministro y sistemas de transporte para mejorar la eficiencia empresarial.",
+        "vision": "Ser una carrera reconocida por la formación de especialistas en logística y transporte a nivel global.",
+        "objetivos": [
+          "Desarrollar competencias en gestión de inventarios y distribución.",
+          "Promover el uso de tecnologías para la optimización logística.",
+          "Fomentar prácticas sostenibles en transporte y logística."
+        ]
+      },
+      {
+        "nombre": "Licenciatura en Educación",
+        "descripcion": "Forma profesionales en el ámbito educativo, cubriendo pedagogía, didáctica y administración educativa.",
+        "imagen": "../img/carreras/Licenciatura en Educación.jpg",
+        "categoria": "soc",
+        "duracion": "media",
+        "costo": "bajo",
+        "orden": "ranking",
+        "mision": "Formar educadores con habilidades pedagógicas innovadoras para impactar positivamente en el desarrollo de la sociedad.",
+        "vision": "Ser reconocidos como líderes en la formación de profesionales educativos que transformen la enseñanza.",
+        "objetivos": [
+          "Proveer conocimientos en planificación y evaluación educativa.",
+          "Fomentar el uso de tecnologías en la enseñanza.",
+          "Desarrollar habilidades en gestión y liderazgo educativo."
+        ]
+      },
+        {
+          "nombre": "Licenciatura en Psicología",
+          "descripcion": "Estudia el comportamiento humano y los procesos mentales, incluyendo terapia psicológica y evaluación psicológica.",
+          "imagen": "../img/carreras/Licenciatura en Psicología.jpg",
+          "categoria": "salud",
+          "duracion": "media",
+          "costo": "medio",
+          "orden": "costo",
+          "mision": "Formar psicólogos competentes que promuevan el bienestar emocional y mental en diversos contextos.",
+          "vision": "Ser un programa líder en el desarrollo de psicólogos especializados en salud mental y bienestar integral.",
+          "objetivos": [
+            "Capacitar en técnicas de intervención psicológica.",
+            "Promover la investigación en psicología aplicada.",
+            "Fomentar el respeto y la ética profesional en el campo de la salud mental."
+          ]
+        },
+        {
+          "nombre": "Licenciatura en Derecho",
+          "descripcion": "Forma profesionales en la aplicación y estudio del derecho, incluyendo legislación, jurisprudencia y ética legal.",
+          "imagen": "../img/carreras/Licenciatura en Derecho.jpg",
+          "categoria": "soc",
+          "duracion": "larga",
+          "costo": "alto",
+          "orden": "ubicacion",
+          "mision": "Educar abogados con compromiso social, excelencia jurídica y ética profesional.",
+          "vision": "Convertirse en un referente nacional e internacional en la formación de juristas.",
+          "objetivos": [
+            "Brindar conocimiento profundo de las leyes y su aplicación.",
+            "Capacitar en la resolución ética de conflictos legales.",
+            "Promover el respeto por el estado de derecho y los derechos humanos."
+          ]
+        },
+        {
+          "nombre": "Ingeniería en Telecomunicaciones",
+          "descripcion": "Especializada en el diseño, implementación y gestión de sistemas de telecomunicaciones, incluyendo redes y sistemas de comunicación.",
+          "imagen": "../img/carreras/Ingeniería en Telecomunicaciones.jpg",
+          "categoria": "ingenieria",
+          "duracion": "larga",
+          "costo": "alto",
+          "orden": "ranking",
+          "mision": "Preparar ingenieros capaces de innovar y liderar en el campo de las telecomunicaciones.",
+          "vision": "Ser reconocidos como líderes en la formación de expertos en telecomunicaciones y redes.",
+          "objetivos": [
+            "Diseñar y gestionar sistemas avanzados de comunicación.",
+            "Impulsar la investigación tecnológica en telecomunicaciones.",
+            "Fomentar la conectividad y la sostenibilidad en sistemas de comunicación."
+          ]
+        },
+        {
+          "nombre": "Licenciatura en Arquitectura",
+          "descripcion": "Prepara para el diseño y planificación de edificios y espacios urbanos, incluyendo técnicas de construcción y estética arquitectónica.",
+          "imagen": "../img/carreras/Licenciatura en Arquitectura.jpg",
+          "categoria": "hum",
+          "duracion": "larga",
+          "costo": "alto",
+          "orden": "ubicacion",
+          "mision": "Formar arquitectos comprometidos con el diseño sostenible y la innovación en el entorno construido.",
+          "vision": "Ser una licenciatura líder en creatividad arquitectónica y urbanismo sostenible.",
+          "objetivos": [
+            "Fomentar la innovación en diseño arquitectónico.",
+            "Promover técnicas de construcción ecológica.",
+            "Desarrollar habilidades en planificación urbana y rural."
+          ]
+        },
+        {
+          "nombre": "Licenciatura en Ciencias de la Computación",
+          "descripcion": "Enfocada en el estudio de algoritmos, estructuras de datos y programación, preparando para el desarrollo de software y sistemas informáticos.",
+          "imagen": "../img/carreras/Licenciatura en Ciencias de la Computación.jpg",
+          "categoria": "fm",
+          "duracion": "larga",
+          "costo": "medio",
+          "orden": "costo",
+          "mision": "Formar expertos en computación capaces de desarrollar soluciones tecnológicas avanzadas.",
+          "vision": "Ser un programa de referencia en innovación y tecnología informática.",
+          "objetivos": [
+            "Desarrollar habilidades en programación y desarrollo de software.",
+            "Fomentar la investigación en computación avanzada.",
+            "Promover la ética y la seguridad en tecnologías de la información."
+          ]
+        },
+        {
+          "nombre": "Licenciatura en Comunicación",
+          "descripcion": "Estudia los medios de comunicación y las técnicas de transmisión de mensajes, incluyendo periodismo, producción audiovisual y relaciones públicas.",
+          "imagen": "../img/carreras/Licenciatura en Comunicación.jpeg",
+          "categoria": "hum",
+          "duracion": "media",
+          "costo": "medio",
+          "orden": "ranking",
+          "mision": "Formar comunicadores estratégicos con capacidad para innovar en los medios y crear mensajes efectivos.",
+          "vision": "Ser líderes en la formación de expertos en comunicación integral y medios digitales.",
+          "objetivos": [
+            "Capacitar en técnicas de producción y difusión de mensajes.",
+            "Promover la investigación en comunicación y cultura.",
+            "Fomentar la creatividad y la ética en la industria mediática."
+          ]
+        },
+        {
+          "nombre": "Ingeniería en Diseño Industrial",
+          "descripcion": "Especializada en el diseño y desarrollo de productos industriales, combinando aspectos funcionales, estéticos y ergonómicos.",
+          "imagen": "../img/carreras/Ingeniería en Diseño Industrial.jpeg",
+          "categoria": "ingenieria",
+          "duracion": "larga",
+          "costo": "alto",
+          "orden": "duracion",
+          "mision": "Preparar ingenieros con visión innovadora para diseñar productos industriales sostenibles y funcionales.",
+          "vision": "Ser líderes en diseño industrial con impacto global.",
+          "objetivos": [
+            "Diseñar productos que combinen funcionalidad y estética.",
+            "Promover el uso de materiales sostenibles.",
+            "Fomentar la ergonomía y la eficiencia en el diseño."
+          ]
+        },
+        {
+          "nombre": "Ingeniería en Gestión Empresarial",
+          "descripcion": "Forma profesionales en la administración y gestión eficiente de empresas, con énfasis en estrategia, innovación y liderazgo.",
+          "imagen": "../img/carreras/Ingeniería en Gestión Empresarial.jpg",
+          "categoria": "ingenieria",
+          "duracion": "media",
+          "costo": "medio",
+          "orden": "ranking",
+          "mision": "Desarrollar ingenieros líderes en la gestión estratégica e innovación empresarial.",
+          "vision": "Ser reconocidos por egresar profesionales que transformen el mundo empresarial.",
+          "objetivos": [
+            "Capacitar en técnicas avanzadas de administración empresarial.",
+            "Fomentar la innovación en procesos organizacionales.",
+            "Desarrollar competencias en liderazgo y estrategia."
+          ]
+        },
+        {
+          "nombre": "Ingeniería en Robótica",
+          "descripcion": "Especializada en el diseño, construcción y programación de robots y sistemas automatizados para diversas aplicaciones industriales y de servicio.",
+          "imagen": "../img/carreras/Ingeniería en Robótica.png",
+          "categoria": "ingenieria",
+          "duracion": "larga",
+          "costo": "alto",
+          "orden": "ubicacion",
+          "mision": "Formar ingenieros expertos en robótica con capacidad para desarrollar soluciones automatizadas innovadoras.",
+          "vision": "Ser líderes en el desarrollo de tecnologías robóticas a nivel global.",
+          "objetivos": [
+            "Diseñar y construir robots para diversas industrias.",
+            "Impulsar la investigación en sistemas automatizados.",
+            "Fomentar el uso ético de la robótica."
+          ]
+        },
+        {
+          "nombre": "Ingeniería en Bioquímica",
+          "descripcion": "Estudia las aplicaciones de la química en procesos biológicos, incluyendo biotecnología, farmacología y análisis bioquímicos.",
+          "imagen": "../img/carreras/Ingeniería en Bioquímica.png",
+          "categoria": "bio",
+          "duracion": "larga",
+          "costo": "alto",
+          "orden": "ranking",
+          "mision": "Preparar ingenieros con capacidades para innovar en el área de la bioquímica aplicada.",
+          "vision": "Ser referentes en formación bioquímica a nivel nacional e internacional.",
+          "objetivos": [
+            "Fomentar el desarrollo de biotecnología avanzada.",
+            "Promover la investigación en procesos bioquímicos.",
+            "Capacitar en aplicaciones farmacológicas y análisis químicos."
+          ]
+        },       
+          {
+            "nombre": "Licenciatura en Biotecnología",
+            "descripcion": "Se enfoca en la aplicación de principios biológicos y químicos para desarrollar tecnologías y productos innovadores en áreas como salud y agricultura.",
+            "imagen": "../img/carreras/Licenciatura en Biotecnología.jpg",
+            "categoria": "Ciencias Biológicas",
+            "duracion": "3 a 5 años",
+            "costo": "Medio",
+            "orden": "Ranking",
+            "mision": "Formar profesionales capaces de innovar en biotecnología para resolver problemas globales en salud, agricultura y medio ambiente.",
+            "vision": "Ser líderes en la formación de expertos en biotecnología aplicada a nivel internacional.",
+            "objetivos": [
+              "Desarrollar soluciones biotecnológicas sostenibles.",
+              "Promover la investigación interdisciplinaria en biotecnología.",
+              "Fomentar la aplicación ética de la biotecnología en la sociedad."
+            ]
+          },
+          {
+            "nombre": "Licenciatura en Ciencias Políticas",
+            "descripcion": "Estudia las estructuras y procesos políticos, la teoría política y la administración pública, preparando a los estudiantes para roles en gobierno y organizaciones internacionales.",
+            "imagen": "../img/carreras/Licenciatura en Ciencias Políticas.jpg",
+            "categoria": "Ciencias Sociales",
+            "duracion": "3 a 5 años",
+            "costo": "Bajo",
+            "orden": "Ubicación",
+            "mision": "Formar líderes políticos con un profundo conocimiento de los sistemas políticos y un compromiso con la justicia social.",
+            "vision": "Ser una referencia en la formación de politólogos capaces de transformar la sociedad a través del liderazgo político.",
+            "objetivos": [
+              "Desarrollar competencias en análisis político y estratégico.",
+              "Fomentar el liderazgo ético en el ámbito político.",
+              "Capacitar en la administración de políticas públicas."
+            ]
+          },
+          {
+            "nombre": "Licenciatura en Sociología",
+            "descripcion": "Explora las estructuras sociales, el comportamiento humano y las instituciones sociales, enfocándose en el análisis y la investigación social.",
+            "imagen": "../img/carreras/Licenciatura en Sociología.jpg",
+            "categoria": "Ciencias Sociales",
+            "duracion": "3 a 5 años",
+            "costo": "Bajo",
+            "orden": "Costo (bajo a alto)",
+            "mision": "Formar sociólogos capaces de analizar y abordar problemáticas sociales con un enfoque crítico y ético.",
+            "vision": "Ser líderes en la generación de conocimiento sociológico aplicado a la transformación social.",
+            "objetivos": [
+              "Promover la investigación de fenómenos sociales.",
+              "Capacitar en el análisis crítico de estructuras sociales.",
+              "Fomentar la participación activa en procesos de cambio social."
+            ]
+          },
+          {
+            "nombre": "Licenciatura en Historia",
+            "descripcion": "Forma historiadores que estudian y analizan eventos históricos, procesos y contextos para comprender el desarrollo de las sociedades humanas.",
+            "imagen": "../img/carreras/Licenciatura en Historia.jpg",
+            "categoria": "Arte y Humanidades",
+            "duracion": "3 a 5 años",
+            "costo": "Bajo",
+            "orden": "Duración",
+            "mision": "Formar historiadores con un enfoque analítico y crítico, capaces de contribuir al entendimiento de los procesos históricos.",
+            "vision": "Ser una referencia en la formación de historiadores que conecten el pasado con los desafíos del presente y futuro.",
+            "objetivos": [
+              "Desarrollar habilidades de investigación histórica.",
+              "Promover la preservación del patrimonio cultural.",
+              "Fomentar la comprensión crítica del pasado."
+            ]
+          },
+          {
+            "nombre": "Licenciatura en Filosofía",
+            "descripcion": "Estudia las cuestiones fundamentales sobre la existencia, el conocimiento, la moral y el pensamiento crítico, preparando a los estudiantes para el análisis filosófico.",
+            "imagen": "../img/carreras/Licenciatura en Filosofía.jpeg",
+            "categoria": "Arte y Humanidades",
+            "duracion": "3 a 5 años",
+            "costo": "Bajo",
+            "orden": "Ranking",
+            "mision": "Formar filósofos con capacidad crítica y reflexiva para abordar las problemáticas éticas y sociales.",
+            "vision": "Ser reconocidos como un programa líder en el desarrollo del pensamiento filosófico en el ámbito académico y social.",
+            "objetivos": [
+              "Fomentar el pensamiento crítico y ético.",
+              "Promover la investigación en filosofía contemporánea.",
+              "Capacitar en la aplicación de la filosofía en contextos interdisciplinarios."
+            ]
+          },
+          {
+            "nombre": "Licenciatura en Artes Visuales",
+            "descripcion": "Enfocada en la creación y apreciación del arte visual, incluyendo técnicas de pintura, escultura, fotografía y medios digitales.",
+            "imagen": "../img/carreras/Licenciatura en Artes Visuales.png",
+            "categoria": "Arte y Humanidades",
+            "duracion": "3 a 5 años",
+            "costo": "Medio",
+            "orden": "Ubicación",
+            "mision": "Formar artistas visuales que combinen creatividad y técnica en la creación de obras artísticas innovadoras.",
+            "vision": "Ser líderes en la formación de artistas comprometidos con el arte y la cultura contemporánea.",
+            "objetivos": [
+              "Capacitar en técnicas artísticas tradicionales y digitales.",
+              "Promover la innovación en la creación visual.",
+              "Fomentar la crítica y la apreciación del arte."
+            ]
+          },
+          {
+            "nombre": "Licenciatura en Música",
+            "descripcion": "Prepara a los estudiantes en la teoría musical, la composición y la interpretación, cubriendo diferentes géneros y estilos musicales.",
+            "imagen": "../img/carreras/Licenciatura en Música.jpg",
+            "categoria": "Arte y Humanidades",
+            "duracion": "3 a 5 años",
+            "costo": "Medio",
+            "orden": "Costo (bajo a alto)",
+            "mision": "Formar músicos con competencias creativas y técnicas para desarrollar una carrera artística y profesional en la música.",
+            "vision": "Ser reconocidos como una institución de excelencia en formación musical y artística.",
+            "objetivos": [
+              "Capacitar en teoría y técnica musical avanzada.",
+              "Promover la interpretación y la composición musical.",
+              "Fomentar la difusión de la cultura musical."
+            ]
+          },
+          {
+            "nombre": "Licenciatura en Gastronomía",
+            "descripcion": "Forma profesionales en la cocina y la gestión de restaurantes, incluyendo técnicas culinarias, nutrición y administración gastronómica.",
+            "imagen": "../img/carreras/Licenciatura en Gastronomía.jpg",
+            "categoria": "Arte y Humanidades",
+            "duracion": "3 a 5 años",
+            "costo": "Alto",
+            "orden": "Ranking",
+            "mision": "Formar expertos en gastronomía que combinen creatividad, técnica y gestión en el ámbito culinario.",
+            "vision": "Ser una referencia en formación gastronómica a nivel nacional e internacional.",
+            "objetivos": [
+              "Desarrollar competencias en técnicas culinarias avanzadas.",
+              "Promover la sostenibilidad en la gastronomía.",
+              "Fomentar la innovación en la gestión de servicios gastronómicos."
+            ]
+          },
+          {
+            "nombre": "Licenciatura en Turismo",
+            "descripcion": "Estudia la gestión y promoción de destinos turísticos, así como la planificación y organización de servicios turísticos.",
+            "imagen": "../img/carreras/Licenciatura en Turismo.jpg",
+            "categoria": "Ciencias Sociales",
+            "duracion": "3 a 5 años",
+            "costo": "Bajo",
+            "orden": "Ubicación",
+            "mision": "Formar líderes en turismo sostenible, capaces de gestionar y promocionar destinos de manera responsable.",
+            "vision": "Ser reconocidos como una institución de excelencia en formación turística.",
+            "objetivos": [
+              "Capacitar en planificación y gestión de destinos turísticos.",
+              "Fomentar el turismo sostenible y responsable.",
+              "Promover la innovación en la industria del turismo."
+            ]
+          },
+          {
+            "nombre": "Licenciatura en Administración Pública",
+            "descripcion": "Prepara para gestionar y administrar recursos y servicios públicos, incluyendo políticas gubernamentales y administración de programas públicos.",
+            "imagen": "../img/carreras/Licenciatura en Administración Pública.jpg",
+            "categoria": "Negocios y Economía",
+            "duracion": "3 a 5 años",
+            "costo": "Bajo",
+            "orden": "Duración",
+            "mision": "Formar expertos en la administración de recursos públicos con un enfoque ético y eficiente.",
+            "vision": "Ser líderes en la formación de profesionales en administración pública a nivel nacional.",
+            "objetivos": [
+              "Capacitar en la gestión y evaluación de políticas públicas.",
+              "Promover la transparencia y la eficiencia en la administración pública.",
+              "Fomentar la participación ciudadana en la gobernanza."
+            ]
+          },
+            {
+              "nombre": "Licenciatura en Ingeniería en Software",
+              "descripcion": "Enfocada en el desarrollo de aplicaciones y sistemas de software, incluyendo programación avanzada y metodologías de desarrollo de software.",
+              "imagen": "../img/carreras/Licenciatura en Ingeniería en Software.jpg",
+              "categoria": "Ingeniería",
+              "duracion": "3 a 5 años",
+              "costo": "Medio",
+              "orden": "Ranking",
+              "mision": "Formar ingenieros en software con habilidades técnicas y creativas para diseñar y desarrollar soluciones tecnológicas innovadoras.",
+              "vision": "Ser líderes en la formación de profesionales en software reconocidos por su excelencia técnica y compromiso ético.",
+              "objetivos": [
+                "Desarrollar competencias en programación avanzada y diseño de software.",
+                "Fomentar el uso de metodologías ágiles en proyectos tecnológicos.",
+                "Promover la innovación y el emprendimiento tecnológico."
+              ]
+            },
+            {
+              "nombre": "Licenciatura en Diseño de Interiores",
+              "descripcion": "Especializada en el diseño y planificación de espacios interiores, enfocándose en la funcionalidad, estética y ergonomía de los entornos habitables.",
+              "imagen": "../img/carreras/Licenciatura en Diseño de Interiores.jpg",
+              "categoria": "Arte y Humanidades",
+              "duracion": "3 a 5 años",
+              "costo": "Medio",
+              "orden": "Costo (bajo a alto)",
+              "mision": "Formar diseñadores de interiores que transformen espacios en ambientes funcionales y estéticos, promoviendo el bienestar de las personas.",
+              "vision": "Ser una referencia en el diseño de interiores, destacando por la creatividad y sostenibilidad en el diseño de espacios.",
+              "objetivos": [
+                "Capacitar en el diseño funcional y estético de interiores.",
+                "Promover la sostenibilidad en proyectos de diseño.",
+                "Fomentar la creatividad y el análisis crítico en la planificación de espacios."
+              ]
+            },
+            {
+              "nombre": "Licenciatura en Marketing Digital",
+              "descripcion": "Estudia estrategias de marketing en plataformas digitales, incluyendo SEO, SEM, redes sociales y análisis de datos para campañas digitales.",
+              "imagen": "../img/carreras/Licenciatura en Marketing Digital.jpg",
+              "categoria": "Negocios y Economía",
+              "duracion": "3 a 5 años",
+              "costo": "Alto",
+              "orden": "Ubicación",
+              "mision": "Formar expertos en marketing digital capaces de diseñar estrategias innovadoras que impulsen el crecimiento empresarial.",
+              "vision": "Ser reconocidos como líderes en la formación de profesionales en marketing digital en un entorno global y dinámico.",
+              "objetivos": [
+                "Desarrollar competencias en SEO, SEM y análisis de datos.",
+                "Fomentar la creatividad en la creación de contenido digital.",
+                "Promover el uso ético y eficiente de las plataformas digitales."
+              ]
+            },
+            {
+              "nombre": "Licenciatura en Ingeniería en Computación",
+              "descripcion": "Prepara para el desarrollo y mantenimiento de sistemas computacionales, incluyendo hardware, software y redes.",
+              "imagen": "../img/carreras/Licenciatura en Ingeniería en Computación.jpg",
+              "categoria": "Ingeniería",
+              "duracion": "3 a 5 años",
+              "costo": "Medio",
+              "orden": "Duración",
+              "mision": "Formar ingenieros en computación con habilidades para innovar y optimizar sistemas tecnológicos integrales.",
+              "vision": "Ser líderes en la formación de ingenieros reconocidos por su excelencia técnica y capacidad para resolver problemas complejos.",
+              "objetivos": [
+                "Capacitar en diseño y mantenimiento de sistemas computacionales.",
+                "Fomentar la investigación en tecnologías emergentes.",
+                "Promover la integración de hardware y software en soluciones innovadoras."
+              ]
+            },
+            {
+              "nombre": "Licenciatura en Ciencias Ambientales",
+              "descripcion": "Estudia la protección y gestión del medio ambiente, incluyendo evaluación de impacto ambiental, sostenibilidad y conservación de recursos naturales.",
+              "imagen": "../img/carreras/Licenciatura en Ciencias Ambientales.jpg",
+              "categoria": "Ciencias Biológicas",
+              "duracion": "3 a 5 años",
+              "costo": "Medio",
+              "orden": "Ranking",
+              "mision": "Formar profesionales en ciencias ambientales comprometidos con la sostenibilidad y la conservación de los recursos naturales.",
+              "vision": "Ser una institución de referencia en la formación de expertos en medio ambiente y sostenibilidad.",
+              "objetivos": [
+                "Capacitar en la evaluación de impacto ambiental.",
+                "Promover el uso sostenible de los recursos naturales.",
+                "Fomentar la investigación aplicada en conservación ambiental."
+              ]
+            },
+            {
+              "nombre": "Licenciatura en Matemáticas Aplicadas",
+              "descripcion": "Enfocada en el uso de técnicas matemáticas para resolver problemas en áreas como ingeniería, finanzas y ciencias naturales.",
+              "imagen": "../img/carreras/Licenciatura en Matemáticas Aplicadas.jpg",
+              "categoria": "Ciencias Físico-Matemáticas",
+              "duracion": "3 a 5 años",
+              "costo": "Bajo",
+              "orden": "Costo (bajo a alto)",
+              "mision": "Formar profesionales en matemáticas aplicadas con habilidades para resolver problemas complejos en diversos campos.",
+              "vision": "Ser reconocidos como un programa líder en la aplicación de las matemáticas para el desarrollo tecnológico y científico.",
+              "objetivos": [
+                "Capacitar en modelado y análisis matemático.",
+                "Fomentar el uso de matemáticas en proyectos interdisciplinarios.",
+                "Promover la innovación en aplicaciones matemáticas."
+              ]
+            },
+            {
+              "nombre": "Licenciatura en Estadística",
+              "descripcion": "Estudia la recolección, análisis e interpretación de datos, aplicando métodos estadísticos para la toma de decisiones en diversos campos.",
+              "imagen": "../img/carreras/Licenciatura en Estadística.jpg",
+              "categoria": "Ciencias Físico-Matemáticas",
+              "duracion": "3 a 5 años",
+              "costo": "Bajo",
+              "orden": "Duración",
+              "mision": "Formar expertos en estadística capaces de analizar y modelar datos para la toma de decisiones informadas.",
+              "vision": "Ser una referencia en la formación de estadísticos reconocidos por su capacidad analítica y rigor metodológico.",
+              "objetivos": [
+                "Desarrollar competencias en análisis de datos y métodos estadísticos.",
+                "Fomentar el uso ético de la estadística.",
+                "Capacitar en herramientas tecnológicas para el análisis de datos."
+              ]
+            },
+            {
+              "nombre": "Licenciatura en Educación Física",
+              "descripcion": "Prepara a los estudiantes para promover la salud y el bienestar físico a través de la enseñanza y la gestión de actividades físicas y deportivas.",
+              "imagen": "../img/carreras/Licenciatura en Educación Física.jpg",
+              "categoria": "Salud",
+              "duracion": "3 a 5 años",
+              "costo": "Bajo",
+              "orden": "Ranking",
+              "mision": "Formar profesionales en educación física comprometidos con la promoción de la salud y el deporte.",
+              "vision": "Ser una institución de excelencia en la formación de educadores físicos a nivel nacional.",
+              "objetivos": [
+                "Capacitar en técnicas de enseñanza deportiva.",
+                "Fomentar hábitos de vida saludables.",
+                "Promover la investigación en educación física y salud."
+              ]
+            },
+            {
+              "nombre": "Licenciatura en Terapia Física",
+              "descripcion": "Forma profesionales en la rehabilitación y tratamiento de lesiones físicas, utilizando técnicas de terapia física y ejercicios de rehabilitación.",
+              "imagen": "../img/carreras/Licenciatura en Terapia Física.jpg",
+              "categoria": "Salud",
+              "duracion": "3 a 5 años",
+              "costo": "Medio",
+              "orden": "Costo (bajo a alto)",
+              "mision": "Formar terapeutas físicos capacitados en el tratamiento y rehabilitación de lesiones para mejorar la calidad de vida de las personas.",
+              "vision": "Ser líderes en la formación de terapeutas físicos reconocidos por su excelencia y profesionalismo.",
+              "objetivos": [
+                "Capacitar en técnicas avanzadas de terapia física.",
+                "Promover el cuidado integral de la salud física.",
+                "Fomentar la investigación en rehabilitación y terapia física."
+              ]
+            },
+            {
+              "nombre": "Licenciatura en Nutrición",
+              "descripcion": "Enfocada en el estudio de la alimentación y la salud, incluyendo dietética, nutrición clínica y planificación de dietas equilibradas.",
+              "imagen": "../img/carreras/Licenciatura en Nutrición.jpeg",
+              "categoria": "Salud",
+              "duracion": "3 a 5 años",
+              "costo": "Medio",
+              "orden": "Ubicación",
+              "mision": "Formar nutricionistas con competencias para promover la salud a través de una adecuada alimentación y educación nutricional.",
+              "vision": "Ser una institución de referencia en la formación de expertos en nutrición y salud.",
+              "objetivos": [
+                "Capacitar en la planificación de dietas saludables.",
+                "Fomentar la educación nutricional en comunidades.",
+                "Promover la investigación en salud y nutrición."
+              ]
+            },
+              {
+                "nombre": "Licenciatura en Ciencias de la Salud",
+                "descripcion": "Prepara profesionales para el cuidado y la promoción de la salud, cubriendo áreas como salud pública, prevención de enfermedades y gestión de servicios de salud.",
+                "imagen": "../img/carreras/Licenciatura en Ciencias de la Salud.jpg",
+                "categoria": "Salud",
+                "duracion": "3 a 5 años",
+                "costo": "Bajo",
+                "orden": "Ranking",
+                "mision": "Formar profesionales en ciencias de la salud con un enfoque integral para la promoción del bienestar en la sociedad.",
+                "vision": "Ser una institución reconocida por la calidad en la formación de líderes en el ámbito de la salud pública y comunitaria.",
+                "objetivos": [
+                  "Capacitar en prevención y promoción de la salud.",
+                  "Fomentar el análisis crítico en la gestión de servicios de salud.",
+                  "Promover prácticas éticas y humanitarias en el cuidado de la salud."
+                ]
+              },
+              {
+                "nombre": "Licenciatura en Odontología",
+                "descripcion": "Forma dentistas que se especializan en el diagnóstico, tratamiento y prevención de enfermedades dentales y orales.",
+                "imagen": "../img/carreras/Licenciatura en Odontología.jpg",
+                "categoria": "Salud",
+                "duracion": "Más de 5 años",
+                "costo": "Alto",
+                "orden": "Ubicación",
+                "mision": "Formar odontólogos altamente capacitados para mejorar la salud bucal de las comunidades.",
+                "vision": "Ser reconocidos como líderes en la formación de profesionales en odontología con impacto a nivel nacional e internacional.",
+                "objetivos": [
+                  "Capacitar en diagnóstico y tratamiento de enfermedades bucales.",
+                  "Promover la investigación en odontología.",
+                  "Fomentar el uso de tecnología avanzada en la práctica dental."
+                ]
+              },
+              {
+                "nombre": "Licenciatura en Medicina",
+                "descripcion": "Prepara a los estudiantes para la práctica médica, incluyendo diagnóstico, tratamiento y prevención de enfermedades, así como atención médica integral.",
+                "imagen": "../img/carreras/Licenciatura en Medicina.jpg",
+                "categoria": "Salud",
+                "duracion": "Más de 5 años",
+                "costo": "Alto",
+                "orden": "Costo (bajo a alto)",
+                "mision": "Formar médicos con alto nivel científico y humanístico para brindar atención integral y de calidad.",
+                "vision": "Ser una institución líder en la formación de médicos con reconocimiento global por su excelencia y ética profesional.",
+                "objetivos": [
+                  "Desarrollar competencias en diagnóstico y tratamiento médico.",
+                  "Fomentar la investigación en medicina y salud.",
+                  "Promover el aprendizaje continuo y el compromiso social en la práctica médica."
+                ]
+              },
+              {
+                "nombre": "Licenciatura en Arquitectura de Interiores",
+                "descripcion": "Estudia el diseño y la mejora de espacios interiores con un enfoque en la funcionalidad, estética y confort de los ambientes.",
+                "imagen": "../img/carreras/Licenciatura en Arquitectura de Interiores.jpg",
+                "categoria": "Arte y Humanidades",
+                "duracion": "3 a 5 años",
+                "costo": "Medio",
+                "orden": "Duración",
+                "mision": "Formar arquitectos de interiores que combinen creatividad y técnica para transformar espacios en ambientes funcionales y sostenibles.",
+                "vision": "Ser un programa líder en la formación de diseñadores de interiores reconocidos por su impacto en el diseño y la sostenibilidad.",
+                "objetivos": [
+                  "Capacitar en diseño estético y funcional de interiores.",
+                  "Fomentar el uso de materiales y técnicas sostenibles.",
+                  "Promover la innovación en proyectos de arquitectura interior."
+                ]
+              },
+              {
+                "nombre": "Licenciatura en Diseño de Moda",
+                "descripcion": "Enfocada en la creación y diseño de prendas de vestir, incluyendo tendencias de moda, patrones y técnicas de confección.",
+                "imagen": "../img/carreras/Licenciatura en Diseño de Moda.jpg",
+                "categoria": "Arte y Humanidades",
+                "duracion": "3 a 5 años",
+                "costo": "Medio",
+                "orden": "Ranking",
+                "mision": "Formar diseñadores de moda capaces de liderar la industria textil a través de propuestas innovadoras y creativas.",
+                "vision": "Ser una institución de referencia en la formación de diseñadores de moda reconocidos a nivel internacional.",
+                "objetivos": [
+                  "Capacitar en técnicas de diseño y confección de moda.",
+                  "Promover la innovación y el emprendimiento en la industria de la moda.",
+                  "Fomentar el análisis de tendencias globales y culturales."
+                ]
+              },
+              {
+                "nombre": "Licenciatura en Ciencias de la Comunicación",
+                "descripcion": "Explora los procesos de comunicación en medios de comunicación y organizaciones, cubriendo periodismo, producción y medios digitales.",
+                "imagen": "../img/carreras/Licenciatura en Ciencias de la Comunicación.jpg",
+                "categoria": "Ciencias Sociales",
+                "duracion": "3 a 5 años",
+                "costo": "Medio",
+                "orden": "Ranking",
+                "mision": "Formar profesionales en comunicación con habilidades críticas para analizar y transformar los medios y las organizaciones.",
+                "vision": "Ser líderes en la formación de comunicadores reconocidos por su ética, creatividad y compromiso social.",
+                "objetivos": [
+                  "Capacitar en producción de medios digitales y tradicionales.",
+                  "Fomentar la investigación en comunicación social.",
+                  "Promover el pensamiento crítico y la ética en la práctica profesional."
+                ]
+              },
+              {
+                "nombre": "Licenciatura en Ciencias Actuariales",
+                "descripcion": "Estudia la evaluación y gestión de riesgos financieros y de seguros mediante el uso de matemáticas y estadísticas actuariales.",
+                "imagen": "../img/carreras/Licenciatura en Ciencias Actuariales.jpg",
+                "categoria": "Ciencias Físico-Matemáticas",
+                "duracion": "3 a 5 años",
+                "costo": "Alto",
+                "orden": "Ranking",
+                "mision": "Formar actuarios expertos en análisis de riesgos y finanzas para contribuir al desarrollo sostenible de las organizaciones.",
+                "vision": "Ser reconocidos por la excelencia académica en ciencias actuariales y su impacto en el sector financiero y asegurador.",
+                "objetivos": [
+                  "Capacitar en herramientas matemáticas y estadísticas aplicadas al riesgo.",
+                  "Fomentar el análisis crítico y ético en la toma de decisiones financieras.",
+                  "Promover la innovación en modelos actuariales y de seguros."
+                ]
+              },
+              {
+                "nombre": "Licenciatura en Finanzas",
+                "descripcion": "Enfocada en la gestión de recursos financieros, incluyendo inversiones, análisis financiero y planificación financiera.",
+                "imagen": "../img/carreras/Licenciatura en Finanzas.jpg",
+                "categoria": "Negocios y Economía",
+                "duracion": "3 a 5 años",
+                "costo": "Alto",
+                "orden": "Ranking",
+                "mision": "Formar profesionales en finanzas con competencias para gestionar recursos e inversiones de manera estratégica y responsable.",
+                "vision": "Ser líderes en la formación de expertos en finanzas reconocidos por su impacto en el desarrollo económico global.",
+                "objetivos": [
+                  "Capacitar en estrategias de análisis financiero y gestión de inversiones.",
+                  "Promover la ética y sostenibilidad en las decisiones financieras.",
+                  "Fomentar la investigación aplicada a las finanzas corporativas."
+                ]
+              },
+              {
+                "nombre": "Licenciatura en Relaciones Laborales",
+                "descripcion": "Estudia la administración de recursos humanos y relaciones laborales en las organizaciones, incluyendo negociación y gestión de conflictos.",
+                "imagen": "../img/carreras/Licenciatura en Relaciones Laborales.jpg",
+                "categoria": "Ciencias Sociales",
+                "duracion": "3 a 5 años",
+                "costo": "Medio",
+                "orden": "Ranking",
+                "mision": "Formar expertos en relaciones laborales para mejorar la gestión del talento y promover la armonía en las organizaciones.",
+                "vision": "Ser reconocidos como líderes en la formación de gestores laborales con impacto en el desarrollo organizacional.",
+                "objetivos": [
+                  "Capacitar en técnicas de negociación y manejo de conflictos laborales.",
+                  "Promover el desarrollo de políticas laborales inclusivas.",
+                  "Fomentar la investigación en gestión de recursos humanos."
+                ]
+              },
+              {
+                "nombre": "Licenciatura en Administración de Empresas Turísticas",
+                "descripcion": "Forma profesionales en la gestión de empresas y servicios en la industria del turismo, incluyendo planificación y administración de destinos turísticos.",
+                "imagen": "../img/carreras/Licenciatura en Administración de Empresas Turísticas.jpg",
+                "categoria": "Negocios y Economía",
+                "duracion": "3 a 5 años",
+                "costo": "Medio",
+                "orden": "Ranking",
+                "mision": "Formar líderes en la administración turística capaces de impulsar el desarrollo sostenible de destinos y servicios turísticos.",
+                "vision": "Ser una referencia en la formación de expertos en turismo con impacto en la economía y el medio ambiente.",
+                "objetivos": [
+                  "Capacitar en planificación y gestión de destinos turísticos.",
+                  "Promover la sostenibilidad en la industria del turismo.",
+                  "Fomentar la innovación en servicios turísticos."
+                ]
+              },
+                {
+                  "nombre": "Licenciatura en Ciencias de la Educación",
+                  "descripcion": "Estudia teorías educativas, metodologías de enseñanza y gestión escolar, preparando a los estudiantes para roles en el sistema educativo.",
+                  "imagen": "../img/carreras/Licenciatura en Ciencias de la Educación.jpeg",
+                  "categoria": "Arte y Humanidades",
+                  "duracion": "3 a 5 años",
+                  "costo": "Bajo",
+                  "orden": "Ranking",
+                  "mision": "Formar profesionales de la educación con las competencias necesarias para transformar el sistema educativo a través de la innovación y el compromiso social.",
+                  "vision": "Ser una carrera líder en la formación de educadores reconocidos por su impacto en el desarrollo académico y comunitario.",
+                  "objetivos": [
+                    "Capacitar en metodologías pedagógicas innovadoras.",
+                    "Fomentar el liderazgo en la gestión escolar.",
+                    "Promover la investigación y mejora continua en la educación."
+                  ]
+                },
+                {
+                  "nombre": "Licenciatura en Trabajo Social",
+                  "descripcion": "Forma profesionales en la intervención y apoyo a individuos y comunidades en situación de vulnerabilidad, incluyendo planificación y gestión de servicios sociales.",
+                  "imagen": "../img/carreras/Licenciatura en Trabajo Social.jpeg",
+                  "categoria": "Ciencias Sociales",
+                  "duracion": "3 a 5 años",
+                  "costo": "Bajo",
+                  "orden": "Ranking",
+                  "mision": "Formar trabajadores sociales capaces de intervenir eficazmente en la mejora del bienestar individual y comunitario, con enfoque ético y profesional.",
+                  "vision": "Ser reconocidos como una carrera que forma líderes en el ámbito social, comprometidos con la justicia y el desarrollo comunitario.",
+                  "objetivos": [
+                    "Capacitar en técnicas de intervención social y comunitaria.",
+                    "Promover la planificación estratégica en servicios sociales.",
+                    "Fomentar el análisis crítico de las problemáticas sociales."
+                  ]
+                },
+                {
+                  "nombre": "Licenciatura en Administración de Empresas",
+                  "descripcion": "Enfocada en la gestión y operación de empresas, cubriendo áreas como finanzas, marketing y estrategia empresarial.",
+                  "imagen": "../img/carreras/Licenciatura en Administración de Empresas.jpg",
+                  "categoria": "Negocios y Economía",
+                  "duracion": "3 a 5 años",
+                  "costo": "Alto",
+                  "orden": "Ranking",
+                  "mision": "Formar líderes empresariales con competencias estratégicas para gestionar organizaciones y contribuir al desarrollo económico.",
+                  "vision": "Ser reconocidos como un programa de excelencia en la formación de administradores de empresas con impacto global.",
+                  "objetivos": [
+                    "Capacitar en herramientas de gestión y planificación empresarial.",
+                    "Fomentar la innovación y el emprendimiento en negocios.",
+                    "Promover la ética y sostenibilidad en la gestión organizacional."
+                  ]
+                },
+                {
+                  "nombre": "Licenciatura en Biología",
+                  "descripcion": "Estudia los seres vivos y sus procesos vitales, incluyendo ecología, genética y biología celular.",
+                  "imagen": "../img/carreras/Licenciatura en Biología.jpg",
+                  "categoria": "Ciencias Biológicas",
+                  "duracion": "3 a 5 años",
+                  "costo": "Medio",
+                  "orden": "Ranking",
+                  "mision": "Formar biólogos capaces de investigar y conservar la biodiversidad, promoviendo el desarrollo sostenible y el conocimiento científico.",
+                  "vision": "Ser una carrera de referencia en la formación de biólogos que lideren proyectos de conservación e innovación científica.",
+                  "objetivos": [
+                    "Capacitar en técnicas de investigación biológica.",
+                    "Promover la conservación y uso sostenible de recursos naturales.",
+                    "Fomentar el análisis de los procesos biológicos y su impacto en el medio ambiente."
+                  ]
+                },
+                {
+                  "nombre": "Licenciatura en Ingeniería en Telecomunicaciones y Redes",
+                  "descripcion": "Prepara en el diseño y gestión de redes de comunicación y sistemas de telecomunicaciones, incluyendo infraestructura y protocolos de red.",
+                  "imagen": "../img/carreras/Licenciatura en Ingeniería en Telecomunicaciones y Redes.jpg",
+                  "categoria": "Ingeniería",
+                  "duracion": "3 a 5 años",
+                  "costo": "Alto",
+                  "orden": "Ranking",
+                  "mision": "Formar ingenieros en telecomunicaciones con competencias para diseñar y gestionar soluciones tecnológicas avanzadas que conecten el mundo.",
+                  "vision": "Ser reconocidos por la excelencia en la formación de profesionales en telecomunicaciones con impacto en la transformación digital.",
+                  "objetivos": [
+                    "Capacitar en el diseño e implementación de redes de telecomunicaciones.",
+                    "Promover la innovación en tecnología de la información y comunicación.",
+                    "Fomentar el análisis crítico en la gestión de infraestructuras tecnológicas."
+                  ]
+                }
+              ]

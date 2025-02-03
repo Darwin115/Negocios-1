@@ -1,0 +1,255 @@
+/*Universidades Recomendadas*/
+/* Estilo de fondo del resultado */
+#recomendadas {
+    background-color: #3498db;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#recomendadas .titulo {
+    width: 100%;
+}
+
+#recomendadas h1 {
+    color: white;
+    font-size: 36px; /* Tamaño de fuente más pequeño */
+    letter-spacing: 2px; /* Espaciado entre caracteres */
+    margin-bottom: 0.8%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+/* Estilo de fila de productos */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.col-md-4 {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+}
+
+/* Estilo de productos */
+.producto {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(202, 52, 52, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+}
+
+.card {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-content {
+    display: flex;
+}
+
+.nombre {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Cambia nowrap a normal */
+    line-height: 1.5em; /* Ajusta la altura de línea según tu diseño */
+    height: 1.5em; /* Ajusta la altura mínima según la cantidad de líneas deseadas */
+}
+
+
+.direccion {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Cambia nowrap a normal */
+    line-height: 1.5em; /* Ajusta la altura de línea según tu diseño */
+    height: 3.5em; /* Ajusta la altura mínima según la cantidad de líneas deseadas */
+}
+
+/* Estilo de imagen */
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo de encabezados y textos */
+h1, h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-content h2 {
+    font-size: 30px; /* Ajusta el tamaño de la fuente del acrónimo */
+    color: white;
+    text-align: center;
+    background-color: #2980b9;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1.1%;
+    max-height: 50%;
+    border-radius: 10px;
+}
+
+h4, h5 {
+    margin-top: 10px;
+}
+
+h3 {
+    color: #333333;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    color: #555555;
+    text-align: justify;
+}
+
+.info {
+    flex: 2;
+    padding-left: 10px; 
+    margin-right: 10px;
+}
+
+.card-content, .imagen {
+    flex: 2;
+  }
+
+.imagen {
+    flex: 1;
+    padding-right: 10px;
+    margin-left: 10px;
+}
+  
+.imagen img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+/*Universidades Destacadas*/
+/* Estilo de fondo del resultado */
+#destacadas {
+    background-color: goldenrod; 
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#destacadas .titulo {
+    width: 100%; 
+}
+
+#destacadas h1 {
+    color: white;
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 0.8%;
+    font-family: 'Montserrat', sans-serif; 
+    text-align: left;
+}
+
+/* Estilo de fila de productos */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.col-md-4Des {
+    flex: 0 0 calc(25% - 20px);
+    margin: 10px;
+}
+
+/* Estilo de productos */
+.productoDes {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(202, 52, 52, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.productoDes:hover {
+    transform: translateY(-5px);
+}
+
+.cardDes {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-contentDes {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.nombreDes {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal; /* Cambia nowrap a normal */
+    line-height: 1.5em; /* Ajusta la altura de línea según tu diseño */
+    height: 3.5em; /* Ajusta la altura mínima según la cantidad de líneas deseadas */
+}
+
+/* Estilo de imagen */
+.cardDes img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo de encabezados y textos */
+.card-contentDes h2 {
+    font-size: 30px; /* Ajusta el tamaño de la fuente del acrónimo */
+    color: white;
+    text-align: center;
+    background-color: #2980b9;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 1.1%;
+    max-height: 50%;
+    border-radius: 10px;
+}
+
+.infoDes, .imagenDes {
+    flex: 1; 
+    width: 100%; 
+    padding: 10px; 
+}
+
+.card-contentDes, .imagenDes {
+    flex: 2;
+  } 
+
+.imagenDes {
+    flex: 1; 
+    width: 100%; 
+    padding: 10px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.imagenDes img {
+    border: 3px solid black; 
+    border-radius: 50%; 
+    max-width: 100%;  
+    width: 200px;
+    height: 200px;
+}

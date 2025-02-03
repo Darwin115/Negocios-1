@@ -1,0 +1,56 @@
+/* Modal */
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para el desenfoque */
+    filter: blur(5px);
+    transition: opacity 0.3s ease;
+    opacity: 0; /* Comienza invisible */
+    pointer-events: none; /* Evita que se pueda interactuar con él */
+    z-index: 999; /* Asegúrate de que esté detrás del modal */
+}
+
+.background-blur.active {
+    opacity: 1; /* Hace visible el desenfoque */
+    pointer-events: auto; /* Permite interacciones si es necesario */
+}
+
+body.modal-open {
+    filter: blur(5px); /* Ajusta el valor para más o menos desenfoque */
+    transition: filter 0.3s ease; /* Transición suave para el desenfoque */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto; /* Centramos el modal */
+    padding: 15px; /* Espaciado interno */
+    border: 1px solid #888;
+    width: 90%; /* Ancho del modal */
+    max-width: 800px; /* Ancho máximo */
+    border-radius: 12px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra más suave */
+    overflow-y: auto; /* Habilitar scroll vertical si es necesario */
+    max-height: 300px; /* Limitar la altura del modal */
+}
+
+.modal-body {
+    padding: 10px; /* Espaciado interno */
+    text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.modal-footer {
+    display: flex; /* Flexbox para centrar contenido */
+    justify-content: center; /* Centrar el botón en el pie del modal */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .modal-content {
+        width: 95%; /* Más ancho en pantallas pequeñas */
+        max-width: 90%; /* Ajustamos el ancho máximo */
+        max-height: 90%; /* Limitar la altura también en pantallas pequeñas */
+    }
+}
